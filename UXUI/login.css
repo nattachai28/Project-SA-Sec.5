@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background:url("Dark.png");
+	
+}
+.header{
+	width:620px;
+	height:210px;
+	background-color:#211E1E;
+	padding:70px 30px;
+	top:300px;
+	left:600px;
+	tranfrom:translate(-50%, -50%);
+	position:absolute;
+	border-redius:10px;
+	box-shadow:4px 4px 6px Yellow;
+}
+h1{
+	color:white;
+	font-family:century gothic;
+	margin:0px;
+}
+.header input{
+	width:100%;
+	margin-bottom:10px;
+}
+.Logo{
+	width:200px;
+	height:200px;
+	top:-25%;
+	right:-15%;
+	position:absolute;
+}
+.header input[type="text"],input[type="password"]{
+	height:40px;
+	background:transparent;
+	color:white;
+	font-family:century gothic;
+	font-size:18px;
+	font-weight:bold;
+	border:none;
+	border-bottom:6px solid #FFBD2F;
+	outline:none;
+}
+.header input[type="submit"]{
+	height:40px;
+	background-color:yellow;
+	outline:none;
+	font-size:25px;
+	font-weight:bold;
+	border:none;
+}
+.header input[type="submit"]:hover{
+	background-color:#FFE475;
+	color:#5A5A5A;
+}
+.header input[type="Register"]{
+	height:1px;
+	background:transparent;
+	outline:none;
+	font-size:5px;
+	font-weight:bold;
+	border:none;
+}

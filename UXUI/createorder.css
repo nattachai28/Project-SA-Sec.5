@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("Dark.png");
+}
+.head {
+	font-size: 130px;
+	color: antiquewhite;
+	text-align: center;
+	margin-top: 50px;
+}
+.select {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: antiquewhite;
+    left: 488px;
+}
+.box {
+	width: 200px;
+	margin-left: 50px;
+}
+.detail {
+    position: absolute;
+    margin-top: 80px;
+    text-align: center;
+    color: antiquewhite;
+    background-position: center;
+    font-size: 30px;
+    left: 617px;
+    top: 336px;
+}
+.text {
+	margin-top: -30px;
+}
+.datafield {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+    left: 841px;
+    top: 376px;
+}
+.submit {
+    background-color: antiquewhite;
+    position: absolute;
+    left: 808px;
+    top: 652px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.home {
+    position: absolute;
+	background: url("home.png");
+	background-position: center;
+	background-size: contain;
+	border: none;
+    width: 50px;
+    height: 50px;
+    left: 13px;
+    top: 13px;
+}
+.top-header {
+	text-align: right;
+	color: antiquewhite;
+}
+.text {
+    font-size: 20px;
+}

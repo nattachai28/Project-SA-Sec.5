@@ -1,0 +1,96 @@
+@charset "utf-8";
+body{
+	background-image: url("Dark.png");
+	background-size: cover;
+	background-position: center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:tomato;
+}
+.top-banner{
+	height: 300px;
+	margin-top: 70px;
+	background-image: url("ps.png");
+	background-position: center;
+	background-size: 600px;
+	background-repeat: no-repeat;
+}
+.progress{
+	margin: 150px auto;
+}
+.progress img{
+	width: 100px;
+	margin-bottom: 30px;
+}
+ul{
+	text-align: center;
+}
+ul li{
+	display:inline-block;
+	width: 250px;
+	position: relative;
+}
+ul li .far{
+	background:#CCC;
+	width: 16px;
+	height: auto;
+	color:#fff;
+	border-radius: 50%;
+	padding: 5px;
+}
+ul li .far:after{
+	content: '';
+	background: #ccc;
+	height: 5px;
+	width: 255px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 125px;
+	z-index: -1; 
+}
+ul li:nth-child(3) .far{
+	background:#39FF49;
+}
+ul li:nth-child(3) .far::after{
+	background:#39FF49;
+}
+ul li:nth-child(1) .far,ul li:nth-child(2) .far{
+	background:#5E0002;
+}
+ul li:nth-child(1) .far::after,ul li:nth-child(2) .far::after{
+	background:#5E0002;
+}
+ul li:first-child .far::after{
+	width: 115px;
+	left: 138px;
+}
+ul li:last-child .far::after{
+	width: 115px;
+}
+.home {
+    position: absolute;
+	background: url("home.png");
+	background-position: center;
+	background-size: contain;
+	border: none;
+    width: 50px;
+    height: 50px;
+    left: 13px;
+    top: 13px;
+}
+.top-header {
+	text-align: right;
+	color: antiquewhite;
+}
+.text {
+    font-size: 30px;
+	display: block;
+}
+.footer {
+    position: absolute;
+	background-repeat: no-repeat;
+    text-align: left;
+    left: 710px;
+    top: 827px;
+}
+
