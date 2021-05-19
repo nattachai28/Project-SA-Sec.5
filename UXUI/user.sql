@@ -1,3 +1,4 @@
+/*   SQL COMMAND FOR DATABASE */
 CREATE TABLE user (
     id INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(50) NOT NULL,
@@ -7,16 +8,17 @@ CREATE TABLE user (
     phone VARCHAR(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-<div class="top-header">
-				<?php
-					include "connection.php"; require "login.php";
-					$records = mysqli_query($conn,"select email from user"); 
-					while($data = mysqli_fetch_array($records))
-					{
-					?>
-						<label class="text"><?php if($_SESSION['email'] == $data['email'] ) { echo $data['email'] ; } ?> </label>
-					<?php
-					}
-				?>
-				<?php mysqli_close($conn);  ?>
-			</div>
+CREATE TABLE createorder (
+    email VARCHAR(50) PRIMARY KEY NOT NULL,
+    Web_Developper VARCHAR(50) NOT NULL,
+    Detail VARCHAR(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE payment (
+    email VARCHAR(50) PRIMARY KEY NOT NULL,
+    payment_method VARCHAR(10) NOT NULL,
+    bank VARCHAR(10) NOT NULL,
+    bank_number VARCHAR(13) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
